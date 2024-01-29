@@ -1,0 +1,94 @@
+body{
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+i{
+    cursor: pointer;
+}
+.logo{
+    width: 50px;
+}
+.copyRights p {
+    max-width: 209px;
+}
+
+.leftBar{
+    background-color: #0D0D0D;
+}
+.navLink li{
+    position: relative;
+    padding-block: 8px;
+    top: 300px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+}
+
+.navLink a {
+    color: #fff;
+}
+
+/* section meal display */
+
+.mealDisplay{
+    padding: 30px;
+    /* background-color: #000; */
+    min-height: 100vh;
+}
+
+.item{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.layer{
+    position: absolute;
+    background-color: #f9f6f6ca;
+    color: #0D0D0D;
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.layercate{
+    position: absolute;
+    background-color: #f9f6f6ca;
+    color: #0D0D0D;
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    transition: all 0.5s;
+}
+
+.item:hover .layer{
+    top: 0;
+}
+.item:hover .layercate{
+    top: 0;
+}
+
+.search input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    }
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    }
+
